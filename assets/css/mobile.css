@@ -1,0 +1,235 @@
+/* Portrait and Landscape */
+
+
+/*and (min-device-width: 320px) and (min-device-width: 576px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)*/
+
+@media only screen and (max-width:992px) {
+    .ho_sidebar {
+        width: 14%;
+        height: 100%;
+    }
+    .ho_sidebar ul li a * {
+        font-weight: 400 !important;
+        font-size: 13px !important;
+        padding-left: 0 !important;
+    }
+    .ho_sidebar ul li {
+        padding-left: 0 !important;
+    }
+    .startheading {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1195px) {
+    .tablecenter {
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+    .linkbtn {
+        font-weight: 600;
+        padding: 2% 4%;
+        border-radius: 30px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .linkbtn {
+        font-weight: 600;
+        padding: 1% 2%;
+        border-radius: 30px;
+        font-size: 8px;
+    }
+    .startheading {
+        font-size: 16px;
+    }
+    .tablecenter {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .ho_sidebar {
+        width: 17%;
+        height: 100%;
+    }
+    .ho_sidebar ul li a * {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        padding-left: 10px !important;
+    }
+    .ho_sidebar ul li {
+        padding-left: 10px !important;
+    }
+    .ho_messagearea {
+        margin-left: 0!important;
+    }
+    #ho_myModal {
+        text-align: center;
+        width: 50%;
+        position: absolute;
+    }
+    #myNavbar1 {
+        display: none;
+    }
+    .ho_messagearea {
+        width: 100%!important;
+    }
+    .ho_openbtn,
+    .ho_closebtn,
+    .ho_hide {
+        display: inline;
+    }
+    .ho_sidebar {
+        height: 100%!important;
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Stay on top */
+    }
+    /*Admin*/
+    .ho_adchatinsidearea img {
+        width: 30px;
+        height: 30px;
+    }
+    .ho_adreaduserreply {
+        margin-left: 14%;
+    }
+    /*chat details*/
+    .ho_carriermessage {
+        margin-left: 15%;
+    }
+    .ho_insidearea img {
+        margin-left: 85%;
+        width: 30px;
+        height: 30px;
+    }
+    .ho_heading {
+        font-size: 28px;
+        text-align: left;
+    }
+    .ho_box2 div,
+    .ho_box1 div {
+        margin-bottom: 5px;
+    }
+    .ho_box2 button {
+        margin-top: 5px;
+    }
+    .ho_colorchange img,
+    .ho_colorchange1 img {
+        width: 25px;
+        height: 25px;
+    }
+    .ho_bbwithdrawal button {
+        font-size: 10px;
+        width: 45%;
+    }
+    .right {
+        float: left;
+    }
+    /*change password */
+    .ho_box4 button {
+        float: left;
+        overflow: hidden;
+    }
+}
+
+
+/* adnan css*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ad_res_management {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 14px !important;
+        line-height: 1.4;
+        padding: 15px 10px;
+    }
+    .ad_res_management .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .heading {
+        color: #555;
+        font-size: 16px !important;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        line-height: 24px;
+        margin-bottom: 0;
+        padding: 20px 10px 0px;
+    }
+    .ad_res_management a {
+        color: #0277bd;
+        text-decoration: none;
+    }
+    .ad_col_1 {
+        display: inherit;
+    }
+    .ad_res_management_list {
+        margin-bottom: 30px;
+    }
+    .ad_badge_default {
+        background-color: #595656;
+    }
+    .ad_badge_acounted {
+        background-color: yellow;
+        font-size: 12px;
+        display: table-cell;
+        height: 28px;
+        color: black;
+        vertical-align: middle;
+        width: 70px;
+    }
+    .ad_badge {
+        font-size: 12px;
+        display: table-cell;
+        height: 28px;
+        vertical-align: middle;
+        width: 70px;
+    }
+    .ad_col_2 {
+        margin-top: 5px;
+    }
+    .ad_date {
+        display: none;
+        margin-left: 22px;
+    }
+    .ad_ocean {
+        display: block;
+    }
+    .ad_col_3 {
+        text-align: right;
+    }
+    .ad_res_price {
+        color: red;
+        text-align: right;
+    }
+    .ad_res_link_1,
+    .ad_res_booking {
+        display: none;
+    }
+    .ad_visit_time {
+        display: block;
+        margin-left: 10px;
+    }
+    .ad_Review_btn {
+        display: block;
+        background: #fae9c4;
+        border-radius: 4px;
+        padding: 5px;
+        text-align: center;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+    .ad_Review_btn a {
+        color: black;
+    }
+    .hidden_laptop {
+        display: inline-block !important;
+    }
+    /* ----------- iPad 1, 2, Mini and Air ----------- */
+    .mobile_top_margin {
+        margin-top: 10px;
+    }
+}
